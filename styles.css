@@ -1,0 +1,40 @@
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Concert One', cursive;
+}
+.page-title {
+  font-size: 80px;
+  text-align: center;
+  line-height: 0.25;
+}
+.about {
+  font-size: 24px;
+  text-align: center;
+}
+.small {
+  font-size: 16px;
+}
+.form-title {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Concert One', cursive;
+}
+.header {
+  margin-bottom: 60px;
+}
+.form-main {
+  border-radius: .3rem;
+  background-color: #e9ecef;
+  padding: 2rem 1rem;
+  width: 50rem;
+  text-align: center;
+}
+.form-div {
+  text-align: center;
+}
+.bottom-space{
+  margin-bottom: 3rem;
+}
+.gj-datepicker {
+  margin-right: auto;
+  margin-left: auto;
+}

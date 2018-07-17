@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Day Counter </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Concert+One|Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" type="text/javascript"></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <br>
+      <div class="jumbotron header">
+        <h1 class="page-title"> Day Counter </h1>
+      </div>
+      <p class="about bottom-space">Use the form below to check how many days are between two dates!</p>
+    </div>
+
+    <div class="container form-main">
+      <p class="about small"> You can either type out your date (MM/DD/YYYY) or click on the gray calenders below</p>
+      <div class="form-div bottom-space">
+        <p class="form-title">- First Date - </p>
+        <input class="mx-auto" id="datepicker" width="276" />
+      </div>
+      <div class="form-div">
+        <p class="form-title bottom-space">- Second Date - </p>
+        <input class="mx-auto" id="datepicker2" width="276" />
+      </div>
+      <br>
+      <button type="button" class="btn btn-info">Submit</button>
+    </div>
+
+  </body>
+</html>
