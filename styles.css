@@ -1,24 +1,33 @@
-h1,h2,h3,h4,h5,h6 {
+.title {
   font-family: 'Concert One', cursive;
+  color: black;
 }
-
+body {
+  background-color: #138496;
+}
 .page-title {
   font-size: 80px;
   text-align: center;
   line-height: 0.25;
 }
+.text {
+  height: 90px;
+}
 .about {
-  font-size: 24px;
+  font-size: 16px;
   text-align: center;
   font-family: 'Work Sans', sans-serif;
 }
-.small {
-  font-size: 16px;
+#errormsg {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+  display: hidden;
 }
 .form-title {
   font-size: 30px;
   text-align: center;
-  font-family: 'Concert One', cursive;
 }
 .header {
   margin-bottom: 60px;
@@ -41,5 +50,17 @@ h1,h2,h3,h4,h5,h6 {
   margin-left: auto;
 }
 .ans-main {
+  font-family: 'Work Sans', sans-serif;
+}
+#footer {
+  height: 5vh;
+  text-align: center;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #e9ecef;
   font-family: 'Work Sans', sans-serif;
 }

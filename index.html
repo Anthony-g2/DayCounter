@@ -20,41 +20,54 @@
     <div class="container">
       <br>
       <div class="jumbotron header">
-        <h1 class="page-title"> Day Counter </h1>
+        <h1 class="page-title title"> Day Counter </h1>
       </div>
     </div>
 
     <div class="container form-main">
-      <p class="about small"> You can either type out your date (MM/DD/YYYY) or click on the gray calenders below</p>
-      <div class="form-div bottom-space">
-        <p class="form-title">- First Date - </p>
-        <input class="mx-auto" id="datepicker" width="276" />
+      <div class="text">
+        <p class="about small"> You can either type out your date (MM/DD/YYYY) or click on the gray calenders below</p>
+        <p class="about small"> For years less than 100, use 0's as space holders (ex. 0001-0099) </p>
+        <span id="errormsg"></span>
       </div>
-      <div class="form-div">
-        <p class="form-title">- Second Date - </p>
-        <input class="mx-auto" id="datepicker2" width="276" />
+      <div class="row bottom-space">
+        <div class="form-div col-sm-6">
+          <p class="form-title title">- First Date - </p>
+          <input class="mx-auto" id="datepicker" width="276" />
+        </div>
+        <div class="form-div col-sm-6">
+          <p class="form-title title">- Second Date - </p>
+          <input class="mx-auto" id="datepicker2" width="276" />
+        </div>
       </div>
       <br>
-      <button type="button" id="submit" class="btn btn-info bottom-space">Submit</button>
+      <button type="button" id="submit" class="btn btn-info bottom-space">Count the Dates</button>
       <br>
 
-      <table class="table ans-main">
-        <thead>
-          <tr>
-            <th scope="col">Days</th>
-            <th scope="col">Hours</th>
-            <th scope="col">Minutes</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td id="results-d"></td>
-            <td id="results-h"></td>
-            <td id="results-m"></td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="table-responsive">
+        <table class="table table-bordered ans-main">
+          <thead>
+            <tr>
+              <th scope="col">Days</th>
+              <th scope="col">Hours</th>
+              <th scope="col">Minutes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="results-d"></td>
+              <td id="results-h"></td>
+              <td id="results-m"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
+
+    <ul id="footer">
+      <li className="footer-content">&copy; Copyright Anthony Greenwell</li>
+      <li className="footer-content">Made with &#9825;</li>
+    </ul>
 
   </body>
 </html>
