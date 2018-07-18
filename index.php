@@ -32,11 +32,11 @@
       </div>
       <div class="row bottom-space">
         <div class="form-div col-sm-6">
-          <p class="form-title title">- First Date - </p>
+          <p class="form-title title">First Date</p>
           <input class="mx-auto" id="datepicker" width="276" />
         </div>
         <div class="form-div col-sm-6">
-          <p class="form-title title">- Second Date - </p>
+          <p class="form-title title">Second Date</p>
           <input class="mx-auto" id="datepicker2" width="276" />
         </div>
       </div>
@@ -65,7 +65,7 @@
     </div>
 
     <div id="footer">
-      <p>&copy; Copyright Anthony Greenwell ; Made with &#9825;</p>
+      <p>&copy; Copyright ; Made with &#9825;</p>
     </div>
 
   </body>
